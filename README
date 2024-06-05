@@ -1,5 +1,5 @@
 //buid docker image support jdk21 
-$docker build --platform linux/amd64 -t sotsirymony168/aws-ecs-course-users-microservice:0.0.6 .
+$docker build --platform linux/amd64 -t sotsirymony168/aws-ecs-course-albums-microservice-public:0.0.1 .
 // after build docker image then builder docker tag for push image to docker hub
 // check image id bellow command
 $docker images
