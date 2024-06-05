@@ -35,5 +35,8 @@ public class AlbumsController {
 		album.setUserId(principal.getName());
 		return albumsService.createAlbum(album);
 	}
- 
+	@GetMapping("/hello")
+	public String helloAllbum() {
+		return "Hello Wellcome API Allbums-Microservice";
+	}
 }

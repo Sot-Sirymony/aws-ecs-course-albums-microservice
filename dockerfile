@@ -8,7 +8,7 @@ WORKDIR /opt/app
 VOLUME /tmp
 
 # Copy the application jar to the container
-COPY target/PhotoAppApiUsers-0.0.1-SNAPSHOT.jar albums-microservice.jar
+COPY target/photo-albums-0.0.1-SNAPSHOT.jar albums-microservice.jar
 
 # Expose the port the application runs on
 EXPOSE 8081
